@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">TERMPROJECT</string>
+    <string-array name="age_ranges">
+        <item>Select:</item>
+        <item>40-44 years</item>
+        <item>45-54 years</item>
+        <item>55-64 years</item>
+        <item>65-74 years</item>
+    </string-array>
+
+    <string-array name="spinner2_options">
+        <item>Select:</item>
+        <item>White (BMI less than 25)</item>
+        <item>Light grey (BMI 25 to 29)</item>
+        <item>Dark grey (BMI 30 to 34) </item>
+        <item>Black (BMI 35 and over)</item>
+    </string-array>
+
+    <string-array name="ethnic_ranges">
+        <item>Select Your Ethnic:</item>
+        <item> White (Caucasian)</item>
+        <item>Aboriginal</item>
+        <item> Black (Afro-Caribbean)</item>
+        <item> East Asian (Chinese, Vietnamese, Filipino, Korean, etc.)</item>
+        <item> South Asian (East Indian, Pakistani, Sri Lankan, etc.) </item>
+        <item>Other non-white (Latin American, Arab, West Asian)</item>
+    </string-array>
+
+    <string-array name="education_ranges">
+        <item>Select Your education level:</item>
+        <item>Some high school or less </item>
+        <item>High school diploma </item>
+        <item> Some college or university</item>
+        <item> University or college degree </item>
+    </string-array>
+
+</resources>

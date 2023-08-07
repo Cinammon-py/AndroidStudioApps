@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="385dp"
+        android:layout_height="631dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4. Using a tape measure, place it around your waist at the level of your belly button"
+            android:textColor="#404040"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="43dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/img" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="MAN WAIST CIRCUMEFERENCE:"
+                android:textColor="#800000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/menwaistcircumference"
+            android:layout_width="match_parent"
+            android:layout_height="105dp">
+
+            <RadioButton
+                android:id="@+id/mencircumference_1"
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:text="Less than 94 cm or 37 inches "
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/mencircumference_2"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text="Between 94-102 cm or 37-40 inches"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/mencircumference_3"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:text=" Over 102 cm or 40 inches"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="42dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/img_1" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="349dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:text="MAN WAIST CIRCUMEFERENCE:"
+                android:textColor="#800000"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/womenwaistcircumference"
+            android:layout_width="match_parent"
+            android:layout_height="102dp">
+
+            <RadioButton
+                android:id="@+id/womencircumference_1"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text=" Less than 80 cm or 31.5 inches"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/womencircumference_2"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text=" Between 80-88 cm or 31.5-35 inches"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/womencircumference_3"
+                android:layout_width="match_parent"
+                android:layout_height="34dp"
+                android:text=" Over 88 cm or 35 inches"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="YOUR LEVEL OF PHYSICAL ACTIVITY AND WHAT YOU EAT CAN AFFECT YOUR RISK OF  DEVELOPING DIABETES."
+            android:textColor="#800000"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. Do you usually do some physical activity such as brisk walking for at least 30 minutes each day?"
+            android:textColor="#404040"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/physicalactivity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton9"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Yes"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textViewheader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6. How often do you eat vegetables or fruits?"
+            android:textColor="#404040"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/fooditem"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/radioButton11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Everyday"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Not Everyday"
+                android:textSize="16sp" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
